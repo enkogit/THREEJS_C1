@@ -6,7 +6,7 @@ source: https://sketchfab.com/3d-models/tesla-cybertruck-8950fc178e254c9198b2a85
 title: Tesla Cybertruck
 */
 
-import React, { useRef } from 'react'
+import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {

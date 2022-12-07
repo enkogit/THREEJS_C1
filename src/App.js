@@ -17,8 +17,8 @@ const Loading = () => {
         <Html center>
           <p className="bottom-space-md" />
           <div className='loader'>
-            <h3>Loading
-              <br /> stand by...
+            <h3 style={{'fontSize':'14px'}}>Loading model...🤖
+              <br />worth the wait.
             </h3>
             <div className="planet"></div>
           </div>

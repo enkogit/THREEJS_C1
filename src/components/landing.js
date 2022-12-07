@@ -28,7 +28,7 @@ return (
       <p>︾</p>
     </div>
     <div className='row' style={{flexFlow:'column'}}>
-      <p className="bottom-space" style={{marginBottom:'500px'}} />
+      <p className="bottom-space" style={{marginBottom:'550px'}} />
       <div className='float-div2'>
         <img src="images/web/doge1.gif" width="200px" alt="" style={{marginTop:'-5px'}} />
       </div>

@@ -11,7 +11,7 @@ return (
 			  <div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center', marginBottom:'-50px'}}>
 					<div className='img-zoom'>
 						<a href={'https://twitter.com/elonmusk/status/1391523807148527620'}>
-							<img src='./cybertruck_logo_flash.gif'  width="350px" alt=''  />
+							<img src='./cybertruck_logo_flash.gif'  width="350px" alt='Cybertruck Logo GIF'  />
 						</a>
 					</div>
 				</div>

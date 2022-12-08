@@ -8,7 +8,7 @@ return (
 	<div className='token__section'>
    		<div className='token__wrapper'>
       		<div className="token__container-card">
-			  <div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
+			  <div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center', marginBottom:'-50px'}}>
 					<div className='img-zoom'>
 						<a href={'https://twitter.com/elonmusk/status/1391523807148527620'}>
 							<img src='./cybertruck_logo_flash.gif'  width="350px" alt=''  />
@@ -24,7 +24,7 @@ return (
 						&emsp;GIVEAWAY
 					</h2>
 				</div>
-				<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
+				<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center', marginTop:'-5px'}}>
 					<TokenBanners />
 				</div>
 			</div>

@@ -9,13 +9,16 @@ import { Token } from './components/token'
 
 const Loading = () => {
   return(
-        <Html center>
-          <p className="bottom-space-md" />
+        <Html as='div'center>
           <div className='loader'>
-            <h3 style={{'fontSize':'14px'}}>Wait, loading...🤖
+          <p className="bottom-space" />
+            <div className="planet"></div>
+            <h3 style={{'fontSize':'20px'}}>loading...🤖
+            <br /> approx 60s
+            </h3>
+            <h3 style={{'fontSize':'14px'}}>
               <br /> ◀ swipe ►
             </h3>
-            <div className="planet"></div>
           </div>
       </Html>
   );

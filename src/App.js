@@ -12,8 +12,8 @@ const Loading = () => {
         <Html center>
           <p className="bottom-space-md" />
           <div className='loader'>
-            <h3 style={{'fontSize':'14px'}}>Loading model...🤖
-              <br />worth the wait..
+            <h3 style={{'fontSize':'14px'}}>Wait, loading...🤖
+              <br /> ◀ swipe ►
             </h3>
             <div className="planet"></div>
           </div>
@@ -30,7 +30,7 @@ function App() {
           <Token />
       </div>
       <div className='canvas dark'>
-          <Canvas camera={{position: [0, 75, 250], zoom: 1, fov:80}}>
+          <Canvas camera={{position: [0, 100, 150], zoom: 1, fov:80}}>
           <OrbitControls />
           <Universe />
           <ambientLight intensity={0.75} />
